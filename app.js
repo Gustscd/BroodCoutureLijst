@@ -1,6 +1,6 @@
 const broodLijst = document.getElementById("BroodLijst")
 
-fetch('https://api.npoint.io/2c2d93ddb28cfce03291')
+fetch('https://www.npoint.io/docs/72154843fa7d988a2e02')
     .then((response) => response.json())
     .then((data) => {
         data.brood.forEach(brood => {
